@@ -9,9 +9,13 @@ import javax.servlet.http.HttpServletResponse;
 
 public class FirstServlet extends HttpServlet{
 	
+	//////
+	
 	@Override
 	public void init() throws ServletException{
 		System.out.println("init 메서드 호출");
+		System.out.println("ddddddd");
+		
 	}
 	
 	@Override
